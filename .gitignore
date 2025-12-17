@@ -1,0 +1,35 @@
+# =========================
+# Apache JMeter
+# =========================
+jmeter.log
+*.log
+
+# Arquivos temporários
+*.tmp
+*.bak
+
+# =========================
+# IDEs / Editores
+# =========================
+.vscode/
+.idea/
+*.iml
+
+# =========================
+# Sistema Operacional
+# =========================
+Thumbs.db
+.DS_Store
+
+# =========================
+# Node / Outros (segurança)
+# =========================
+node_modules/
+
+# =========================
+# NÃO IGNORAR (IMPORTANTE)
+# =========================
+!results/*.jtl
+!reports/**/*
+!jmeter/*.jmx
+!README.md
